@@ -9,15 +9,15 @@ sender.addEventListener("click",(e)=>{
 })
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCf-wzHxEXPYaS2YSwuqw1Dmz2_fSXOLmM",
-    authDomain: "chat-app-ac3b1.firebaseapp.com",
-    databaseURL: "https://chat-app-ac3b1-default-rtdb.firebaseio.com",
-    projectId: "chat-app-ac3b1",
-    storageBucket: "",
-    messagingSenderId: "99671200397",
-    appId: "1:99671200397:web:9a37c4184ee8dfa78e88c4",
-    // measurementId: "G-2QE0XKMSRG"
-  };
+  apiKey: "AIzaSyCf-wzHxEXPYaS2YSwuqw1Dmz2_fSXOLmM",
+  authDomain: "chat-app-ac3b1.firebaseapp.com",
+  databaseURL: "https://chat-app-ac3b1-default-rtdb.firebaseio.com",
+  projectId: "chat-app-ac3b1",
+  storageBucket: "chat-app-ac3b1.appspot.com",
+  messagingSenderId: "99671200397",
+  appId: "1:99671200397:web:8492a69124c640508e88c4",
+  measurementId: "G-K2MKF7KHES"
+};
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   var myName = prompt("Enter your name");
